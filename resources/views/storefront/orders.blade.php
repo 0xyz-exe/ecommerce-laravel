@@ -1,0 +1,3 @@
+@extends('storefront.layout')
+@section('title', 'Order history — Morrow Goods')
+@section('content')<section style="padding:48px 0 80px"><div class="eyebrow">Your purchases</div><h1 style="font:600 42px 'Playfair Display',serif">Order history</h1><div class="panel">@forelse($orders as $order)<div class="row"><div><strong><a href="{{ route('orders.show', $order) }}">{{ $order->order_number }}</a></strong><div class="muted">{{ $order->created_at->format('M j, Y') }} · {{ ucfirst($order->status) }}</div></div><strong>${{ number_format($order->total / 100, 2) }}</strong></div>@empty<p class="muted">Your first order is waiting to happen.</p>@endforelse{{ $orders->links() }}</div></section>@endsection
