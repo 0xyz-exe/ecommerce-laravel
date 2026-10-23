@@ -13,7 +13,22 @@ Simple Laravel shop with product catalog, categories, session cart, COD checkout
 
 Repository: https://github.com/0xyz-exe/ecommerce-laravel
 
-## Screenshots Placeholder
+## Screenshots
+
+### Storefront & Product Catalog
+![Storefront](docs/screenshots/01_storefront.png)
+
+### Shopping Cart
+![Shopping cart](docs/screenshots/02_cart.png)
+
+### Admin Product Inventory
+![Admin products](docs/screenshots/05_admin_products.png)
+
+### Customer Orders
+![Orders](docs/screenshots/04_orders.png)
+
+### Authentication
+![Authentication](docs/screenshots/03_login.png)
 
 ## Features
 
