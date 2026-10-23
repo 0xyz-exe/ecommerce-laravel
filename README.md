@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# E-Commerce Laravel
+
+Simple Laravel shop with product catalog, categories, session cart, COD checkout, inventory-safe order creation, customer order history, and admin product management.
+
+- **Payment:** Cash on delivery; no online payment is claimed or processed.
+- **Prices:** Integer minor units.
+- **Test suite:** `php artisan test` (last run: 8 passed).
+- **Local setup:** `composer install`, copy `.env.example` to `.env`, `php artisan key:generate`, configure database, `php artisan migrate --seed`, `php artisan serve`.
+- **Admin seed:** local-only `admin@example.test` / `ChangeMe123!`. Change immediately; do not use in production.
+- **Production:** Set a private DB, HTTPS, secure sessions, and rotate seeded admin credentials. Review uploads, backups, and authorization before deployment.
+- **Known scope:** Variants, coupon engine, full sales reports, payment gateway/webhooks, and comprehensive customer/inventory management are not implemented yet.
+- **GitHub:** https://github.com/0xyz-exe/ecommerce-laravel
+- **Verified commit:** `20f8b531dd63f80d98899910ab998f1040dfdefd` on `main`.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
