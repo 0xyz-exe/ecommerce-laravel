@@ -11,6 +11,12 @@
 
 Simple Laravel shop with product catalog, categories, session cart, COD checkout, inventory-safe order creation, customer order history, and admin product management.
 
+Repository: https://github.com/0xyz-exe/ecommerce-laravel
+
+## Screenshots Placeholder
+
+## Features
+
 - **Payment:** Cash on delivery; no online payment is claimed or processed.
 - **Prices:** Integer minor units.
 - **Test suite:** `php artisan test` (last run: 8 passed).
