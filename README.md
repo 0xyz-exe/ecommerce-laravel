@@ -15,20 +15,12 @@ Repository: https://github.com/0xyz-exe/ecommerce-laravel
 
 ## Screenshots
 
-### Storefront & Product Catalog
-![Storefront](docs/screenshots/01_storefront.png)
-
-### Shopping Cart
-![Shopping cart](docs/screenshots/02_cart.png)
-
-### Admin Product Inventory
-![Admin products](docs/screenshots/05_admin_products.png)
-
-### Customer Orders
-![Orders](docs/screenshots/04_orders.png)
-
-### Authentication
-![Authentication](docs/screenshots/03_login.png)
+| Tampilan | Preview |
+|---|---|
+| **Katalog Etalase & Kurasi Produk**<br>Tampilan storefront Morrow Goods dengan banner hero kurasi, pencarian produk, filter kategori, dan kartu produk | ![Katalog Etalase & Kurasi Produk](docs/screenshots/01-storefront-catalog.png) |
+| **Detail Produk & Pemilihan Jumlah**<br>Halaman detail produk dengan rincian material keramik, harga dalam unit integer, stok tersedia, dan kontrol kuantitas belanja | ![Detail Produk & Pemilihan Jumlah](docs/screenshots/02-product-detail.png) |
+| **Keranjang Belanja & Ringkasan Checkout**<br>Ringkasan isi bag/cart dengan kalkulasi subtotal dan total dinamis, tombol pembaruan item, dan navigasi checkout COD | ![Keranjang Belanja & Ringkasan Checkout](docs/screenshots/03-cart-summary.png) |
+| **Manajemen Inventaris Produk Admin**<br>Panel manajemen produk toko untuk menambah produk baru, meninjau stok per kategori, mengubah data, atau mengarsipkan item | ![Manajemen Inventaris Produk Admin](docs/screenshots/04-admin-inventory.png) |
 
 ## Features
 
